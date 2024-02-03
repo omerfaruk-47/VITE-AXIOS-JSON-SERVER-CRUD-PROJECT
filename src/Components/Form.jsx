@@ -37,7 +37,7 @@ const Form = ({ setTodos }) => {
       className="d-flex justify-content-center gap-3 my-5"
     >
       <input
-        placeholder="ör:react projesi yap"
+        placeholder="İçerik Giriniz..."
         className="form-control shadow"
         type="text"
       />

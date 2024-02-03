@@ -6,7 +6,7 @@ import ListItem from "./Components/ListItem";
 
 // varsayılan olarak baseUrl ekle
 // yapılan bütün isteklerin başındaki api url'İni belirle
-axios.defaults.baseURL = `http://localhost:3030`;
+axios.defaults.baseURL = `http://localhost:3000`;
 
 function App() {
   const [todos, setTodos] = useState(null);
@@ -40,7 +40,7 @@ function App() {
   return (
     <div className="container p-3 p-md-5">
       <h2 className="text-center">
-        Server <span className="text-warning">CRUD</span>
+        Server- <span className="text-warning">CRUD</span>-Project
       </h2>
 
       <Form setTodos={setTodos} />
